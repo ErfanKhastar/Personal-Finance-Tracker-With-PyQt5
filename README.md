@@ -51,7 +51,7 @@ The application will automatically create the necessary database and tables on i
 
 ### 5. Configure Environment Variables
 In the root directory of the project, create a new file named .env. Copy the following template into it and fill it with your MySQL server credentials.
-```bash
+```env
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_mysql_password
